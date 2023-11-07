@@ -1,3 +1,9 @@
+# This file is where game logic lives. No input
+# or output happens here. The logic in this file
+# should be unit-testable.
+
+
+
 def check_winner(board):
     # check rows
     #    ['X', 'X', 'X'], -> set(['X', 'X', 'X']) -> {'X'}
